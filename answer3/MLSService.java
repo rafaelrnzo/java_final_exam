@@ -21,8 +21,8 @@ public class MLSService {
     // Menyiapkan data dummy parent, student, membership, topic, dan quiz
     private void seedData() {
         Membership membership = new Membership("Active", "2026-01-01", "2026-12-31", true);
-        Parent parent = new Parent("parent1", "parent123", "Budi Santoso", membership);
-        Student student = new Student("child1", "child123", "Andi Santoso", 10, "SD");
+        Parent parent = new Parent("rafael1", "password123", "Rafael", membership);
+        Student student = new Student("user1", "user123", "Test Student", 10, "SD");
 
         parent.addChild(student);
 
